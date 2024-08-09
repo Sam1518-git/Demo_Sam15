@@ -17,5 +17,6 @@ jobs:
     steps:
       - name: Show OS
         run: |
+        shell: bash
           echo "This job is running on window runner."
           echo "The runner OS is: $RUNNER_OS"
